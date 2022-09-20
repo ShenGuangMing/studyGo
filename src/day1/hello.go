@@ -6,6 +6,10 @@ import (
 	"gonum.org/v1/gonum/stat"
 )
 
+func sub(a int, b int) int {
+	return a - b
+}
+
 func main() {
 	a := 10
 	b := 20
